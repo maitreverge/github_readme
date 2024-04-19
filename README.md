@@ -56,6 +56,8 @@ On peut egalement mettre du texte en **gras**, *italique*, **gras _plus italique
 | Gras et italique imbriqués   | `** **` et `_ _` | Aucun                           | `**Texte _urgent_ et important**`| **Texte _urgent_ et important**    |
 | Tout en gras et en italique  | `*** ***`             | Aucun                             | `***Tout en gras et en italique***`| ***Tout en gras et en italique***  |
 | Code                         | \` \`  | Aucun | ``` `Ceci est un bout de code` ```| `Ceci est un bout de code` |
+| Subscript | `<sub> </sub>` | Aucun | `Ceci est un <sub> subscript </sub> texte` | Ceci est un <sub> subscript </sub> texte |
+| Superscript | `<sup> </sup>` | Aucun | `Ceci est un <sup> superscript </sup> texte` | Ceci est un <sup> superscript </sup> texte |
 
 ---
 
@@ -67,20 +69,23 @@ HEX | `#RRGGBB` | `#0969DA` | #0969DA
 RGB | `rgb(R,G,B)` | `rgb(9, 105, 218)` | rgb(9, 105, 218)
 HSL | `hsl(H, S, L)` | `hsl(212, 92%, 45%)` | hsl(212, 92%, 45%)
 
+> [!NOTE]  
+> Les codes couleurs fonctionnent uniquement dans les sections `Issues`, `Pull requests` et `Discussions` .
+
 ---
 
 Des syntaxes plus poussees sont egalement possibles :
 
 **Markdown :**
 ``` text
-> Ceci est une citation
+Ceci n'est pas une citation
 
 > Ceci est une deuxieme citation
 ```
 **Preview :**
 
 
-> Ceci est une citation
+Ceci n'est pas une citation
 
 > Ceci est une deuxieme citation
 
@@ -113,14 +118,16 @@ Liste ordonees :
 1. Un premier point en utilisant 1. avec un espace
 2. Un deuxieme point en utilisant 2. avec un espace
 3. Un troisieme point en utilisant 3. avec un espace
+    - Sous point
+    - Encore un sous-point
 ```
 **Preview :**
 
 1. Un premier point en utilisant 1. avec un espace
 2. Un premier point en utilisant 2. avec un espace
 3. Un premier point en utilisant 3. avec un espace
-  1. Hey
-  2. regver
+    - Sous point
+    - Encore un sous-point
 
 
 ## HEADING
@@ -174,6 +181,13 @@ Pour le heading, nous utiliserons le symbole **#**
 **Preview :**
 
 ###### HEADING 6
+
+
+ADVANCES SYNTAX :
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
 
 
