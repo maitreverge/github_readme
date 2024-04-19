@@ -45,6 +45,19 @@ et deux sauts de ligne
 
 ---
 
+On peut egalement mettre du texte en **gras**, *italique*, **gras _plus italique_**, ***gras et italique*** ~~barré~~...
+
+
+| Style | Syntax | Raccourci clavier | Example | Output
+|----------|----------|----------|----------|----------|
+| Texte en gras (bold)   | `** **` or `__ __`   | `Command`+`B`(Mac) or <br>`Ctrl`+`B`(Windows/Linux) | `**Texte en gras**` or <br> `__Texte En gras__` | __Texte en gras__
+| Texte en italique            | `* *` or `_ _`        | `Command`+`I`(Mac) or <br>`Ctrl`+`I`(Windows/Linux)  | `*Texte en italique*` or <br> `_Texte en italique_`   | *Texte en italique*                  |
+| Texte barré                  | `~~ ~~`               | Aucun                             | `~~Texte barré~~`                  | ~~Texte barré~~                      |
+| Gras et italique imbriqués   | `** **` and `_ _` | Aucun                           | `**Texte _urgent_ et important**`| **Texte _urgent_ et important**    |
+| Tout en gras et en italique  | `*** ***`             | Aucun                             | `***Tout en gras et en italique***`| ***Tout en gras et en italique***  |
+
+---
+
 ## HEADING
 
 Pour le heading, nous utiliserons le symbole **#**
