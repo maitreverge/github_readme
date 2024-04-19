@@ -21,7 +21,7 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 
 **Markdown :**
 ``` text
-
+Texte
 ```
 **Preview :**
 
@@ -50,13 +50,78 @@ On peut egalement mettre du texte en **gras**, *italique*, **gras _plus italique
 
 | Style | Syntax | Raccourci clavier | Example | Output
 |----------|----------|----------|----------|----------|
-| Texte en gras (bold)   | `** **` or `__ __`   | `Command`+`B`(Mac) or <br>`Ctrl`+`B`(Windows/Linux) | `**Texte en gras**` or <br> `__Texte En gras__` | __Texte en gras__
-| Texte en italique            | `* *` or `_ _`        | `Command`+`I`(Mac) or <br>`Ctrl`+`I`(Windows/Linux)  | `*Texte en italique*` or <br> `_Texte en italique_`   | *Texte en italique*                  |
+| Texte en gras    | `** **` ou `__ __`   | `Command`+`B`(Mac) or <br>`Ctrl`+`B`(Windows/Linux) | `**Texte en gras**` or <br> `__Texte En gras__` | __Texte en gras__
+| Texte en italique            | `* *` ou `_ _`        | `Command`+`I`(Mac) or <br>`Ctrl`+`I`(Windows/Linux)  | `*Texte en italique*` or <br> `_Texte en italique_`   | *Texte en italique*                  |
 | Texte barré                  | `~~ ~~`               | Aucun                             | `~~Texte barré~~`                  | ~~Texte barré~~                      |
-| Gras et italique imbriqués   | `** **` and `_ _` | Aucun                           | `**Texte _urgent_ et important**`| **Texte _urgent_ et important**    |
+| Gras et italique imbriqués   | `** **` et `_ _` | Aucun                           | `**Texte _urgent_ et important**`| **Texte _urgent_ et important**    |
 | Tout en gras et en italique  | `*** ***`             | Aucun                             | `***Tout en gras et en italique***`| ***Tout en gras et en italique***  |
+| Code                         | \` \`  | Aucun | ``` `Ceci est un bout de code` ```| `Ceci est un bout de code` |
 
 ---
+
+Code couleurs :
+
+| Couleur | Syntax | Example | Output
+|----------|----------|----------|----------|
+HEX | `#RRGGBB` | `#0969DA` | #0969DA
+RGB | `rgb(R,G,B)` | `rgb(9, 105, 218)` | rgb(9, 105, 218)
+HSL | `hsl(H, S, L)` | `hsl(212, 92%, 45%)` | hsl(212, 92%, 45%)
+
+---
+
+Des syntaxes plus poussees sont egalement possibles :
+
+**Markdown :**
+``` text
+> Ceci est une citation
+
+> Ceci est une deuxieme citation
+```
+**Preview :**
+
+
+> Ceci est une citation
+
+> Ceci est une deuxieme citation
+
+---
+
+Bullet points (liste non ordonee)
+
+**Markdown :**
+``` text
+* Un premier point en utilisant * avec un espace
++ Un premier point en utilisant + avec un espace
+- Un premier point en utilisant - avec un espace
+[Tabulation] - Sous-Point
+[Tabulation] [Tabulation] - Sous-sous-Point
+```
+**Preview :**
+
+* Un premier point en utilisant * avec un espace
++ Un premier point en utilisant + avec un espace
+- Un premier point en utilisant - avec un espace
+  - Sous-Point
+    - Sous-sous-Point  
+
+---
+
+Liste ordonees :
+
+**Markdown :**
+``` text
+1. Un premier point en utilisant 1. avec un espace
+2. Un deuxieme point en utilisant 2. avec un espace
+3. Un troisieme point en utilisant 3. avec un espace
+```
+**Preview :**
+
+1. Un premier point en utilisant 1. avec un espace
+2. Un premier point en utilisant 2. avec un espace
+3. Un premier point en utilisant 3. avec un espace
+  1. Hey
+  2. regver
+
 
 ## HEADING
 
