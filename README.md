@@ -14,11 +14,18 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 <br>
 
 - [Basics](#basics)
+- [Heading](#heading)
 
 </details>
 <hr>
 
+**Markdown :**
+``` text
 
+```
+**Preview :**
+
+Texte
 
 ## BASICS
 
@@ -35,6 +42,61 @@ Ceci est un exemple basique.
 Notez la difference entre un seul saut de ligne
 
 et deux sauts de ligne
+
+---
+
+## HEADING
+
+Pour le heading, nous utiliserons le symbole **#**
+
+**Markdown :**
+``` text
+# HEADING 1
+```
+**Preview :**
+
+# HEADING 1
+
+**Markdown :**
+``` text
+## HEADING 2
+```
+**Preview :**
+
+## HEADING 2
+
+**Markdown :**
+``` text
+### HEADING 3
+```
+**Preview :**
+
+### HEADING 3
+
+**Markdown :**
+``` text
+#### HEADING 4
+```
+**Preview :**
+
+#### HEADING 4
+
+**Markdown :**
+``` text
+##### HEADING 5
+```
+**Preview :**
+
+##### HEADING 5
+
+**Markdown :**
+``` text
+###### HEADING 6
+```
+**Preview :**
+
+###### HEADING 6
+
 
 
 
