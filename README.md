@@ -100,16 +100,16 @@ Bullet points (liste non ordonee)
 **Markdown :**
 ``` text
 * Un premier point en utilisant * avec un espace
-+ Un premier point en utilisant + avec un espace
-- Un premier point en utilisant - avec un espace
++ Un deuxieme point en utilisant + avec un espace
+- Un troisieme point en utilisant - avec un espace
 [Tabulation] - Sous-Point
 [Tabulation] [Tabulation] - Sous-sous-Point
 ```
 **Preview :**
 
 * Un premier point en utilisant * avec un espace
-+ Un premier point en utilisant + avec un espace
-- Un premier point en utilisant - avec un espace
++ Un deuxieme point en utilisant + avec un espace
+- Un troisieme point en utilisant - avec un espace
   - Sous-Point
     - Sous-sous-Point  
 
@@ -128,8 +128,8 @@ Liste ordonees :
 **Preview :**
 
 1. Un premier point en utilisant 1. avec un espace
-2. Un premier point en utilisant 2. avec un espace
-3. Un premier point en utilisant 3. avec un espace
+2. Un deuxieme point en utilisant 2. avec un espace
+3. Un troisieme point en utilisant 3. avec un espace
     - Sous point
     - Encore un sous-point
 
@@ -229,6 +229,23 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 | `git push --force` | Commande a tester *SEULEMENT* en production. |
 | `git reset --hard HEAD && git push --force` | L'architecture du **chaos** |
 
+
+> [!TIP]
+> Une syntaxe speciale est utilisee pour aligner les cellules d'une meme colonne :
+
+**Markdown :**
+``` text
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+```
+**Preview :**
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 
 
