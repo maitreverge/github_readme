@@ -202,7 +202,7 @@ Pour le heading, nous utiliserons le symbole **#**
 
 [Ceci est un lien de reference, le bloc qui suit sera la reference][reference_intra_42]
 
-[Je suis une référence relative à un fichier de dépôt](../blob/master/assets/pain.png)
+[Je suis une référence relative à un fichier de dépôt](assets/pain.png)
 
 [1] : https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
@@ -233,7 +233,7 @@ Du texte pour montrer que les liens de référence peuvent suivre plus tard.
 
 [Ceci est un lien de reference, le bloc qui suit sera la reference][reference_intra_42]
 
-[Je suis une référence relative à un fichier de dépôt](../blob/master/assets/pain.png)
+[Je suis une référence relative à un fichier de dépôt](assets/pain.png)
 
 [1] : https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
