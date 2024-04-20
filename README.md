@@ -191,6 +191,67 @@ Pour le heading, nous utiliserons le symbole **#**
 
 ## LINKS
 
+**Markdown :**
+``` text
+[Lien classique](https://www.google.com)
+
+[Lien classique avec description](https://www.google.com "Ceci est la description du lien : Page d'accueil de Google")
+
+
+[reference_intra_42] : https://profile.intra.42.fr
+
+[Ceci est un lien de reference, le bloc qui suit sera la reference][reference_intra_42]
+
+[Je suis une référence relative à un fichier de dépôt](../blob/master/assets/pain.png)
+
+[1] : https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+[Vous pouvez utiliser des nombres pour les définitions de liens de type référence][1]
+
+[texte du lien lui-même] : http://www.reddit.com
+
+Ou laissez-le vide et utilisez le [texte du lien lui-même].
+
+Les URL et les URL entre crochets seront automatiquement transformés en liens. 
+http://www.example.com ou <http://www.example.com> et parfois 
+exemple.com (mais pas sur Github, par exemple).
+
+Du texte pour montrer que les liens de référence peuvent suivre plus tard.
+
+[La meilleure video de l'internet mondial, je ne veux rien savoir][1]
+
+```
+
+**Preview :**
+
+[Lien classique](https://www.google.com)
+
+[Lien classique avec description](https://www.google.com "Ceci est la description du lien : Page d'accueil de Google")
+
+
+[reference_intra_42] : https://profile.intra.42.fr
+
+[Ceci est un lien de reference, le bloc qui suit sera la reference][reference_intra_42]
+
+[Je suis une référence relative à un fichier de dépôt](../blob/master/assets/pain.png)
+
+[1] : https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+[Vous pouvez utiliser des nombres pour les définitions de liens de type référence][1]
+
+[texte du lien lui-même] : http://www.reddit.com
+
+Ou laissez-le vide et utilisez le [texte du lien lui-même].
+
+Les URL et les URL entre crochets seront automatiquement transformés en liens. 
+http://www.example.com ou <http://www.example.com> et parfois 
+exemple.com (mais pas sur Github, par exemple).
+
+Du texte pour montrer que les liens de référence peuvent suivre plus tard.
+
+[La meilleure video de l'internet mondial, je ne veux rien savoir][1]
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## TABLEAUX
