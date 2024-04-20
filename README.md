@@ -15,6 +15,8 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 
 - [Basics](#basics)
 - [Heading](#heading)
+- [Links](#links)
+- [Advanced Syntax](#advanced_syntax)
 
 </details>
 <hr>
@@ -26,6 +28,8 @@ Texte
 **Preview :**
 
 Texte
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## BASICS
 
@@ -129,6 +133,7 @@ Liste ordonees :
     - Sous point
     - Encore un sous-point
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## HEADING
 
@@ -182,8 +187,54 @@ Pour le heading, nous utiliserons le symbole **#**
 
 ###### HEADING 6
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-ADVANCES SYNTAX :
+## LINKS
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## TABLEAUX
+
+Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux : le pipe `|` et le tiret `-`
+
+**Markdown :**
+``` text
+| Colonne 1  | Colonne 2 |
+| ------------- | ------------- |
+| Hello World  | Elon Musk is my Daddy  |
+| Epitech is over-rated  | Jennifer Lopez is my Mommy  |
+```
+**Preview :**
+
+| Colonne 1  | Colonne 2 |
+| ------------- | ------------- |
+| Hello World  | Elon Musk is my Daddy  |
+| Epitech is over-rated  | Jennifer Lopez is my Mommy  |
+
+
+> [!TIP]
+> Le formatage est egalement possible dans les cellules d'un tableau :
+
+**Markdown :**
+``` text
+| Command | Description |
+| --- | --- |
+| `git push --force` | Commande a tester *SEULEMENT* en production. |
+| `git reset --hard HEAD && git push --force` | L'architecture **chaos** |
+```
+**Preview :**
+
+| Command | Description |
+| --- | --- |
+| `git push --force` | Commande a tester *SEULEMENT* en production. |
+| `git reset --hard HEAD && git push --force` | L'architecture du **chaos** |
+
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## ADVANCED SYNTAX :
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
