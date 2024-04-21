@@ -501,5 +501,51 @@ Lorsque non precise, le bloc de code sera affiche sans syntax highlighting
 </details>
 <hr>
 
+<a id="summary"></a>
+<hr>
+<details><summary>Cool profiles </summary>
+<br>
+
+- [student_1](https://github.com/rabatm)
+- [student_1](https://github.com/yowcloud)
+- [student_1](https://github.com/137cesium)
+- [student_1](https://github.com/Coday-meric)
+- [student_1](https://github.com/pasqualerossi)
+- [student_1](https://github.com/mcombeau)
+- [student_1](https://github.com/Fandre-b)
+- [student_1](https://github.com/caoslourenco)
+- [student_1](https://github.com/Gl1tsh)
+- [student_1](https://github.com/RhesusP)
+- [student_1](https://github.com/Andrefcampos)
+- [student_1](https://github.com/Ayoub-hamdoun)
+- [student_1](https://github.com/yasmineww)
+- [student_1](https://github.com/Gillian-Delvigne)
+- [student_1](https://github.com/pedromelocf)
+- [student_1](https://github.com/bbazaglia)
+- [student_1](https://github.com/aceyzz)
+- [student_1](https://github.com/lucAsC87)
+- [student_1](https://github.com/solismesmo)
+- [student_1](https://github.com/Valsimot42)
+- [student_1](https://github.com/Anoukmch)
+- [student_1](https://github.com/raqelcb)
+- [student_1](https://github.com/n1kito)
+- [student_1](https://github.com/elydre)
+- [student_1](https://github.com/fleuryD)
+- [cool_profile](https://github.com/guilyx/guilyx)
+- [cool_profile](https://github.com/timburgan/timburgan)
+- [cool_profile](https://github.com/anmol098/anmol098)
+- [cool_profile](https://github.com/Raymo111/Raymo111)
+- [cool_profile](https://github.com/Rishit-dagli/Rishit-dagli)
+- [cool_profile](https://github.com/WaylonWalker/WaylonWalker)
+- [cool_profile](https://github.com/onimur/onimur)
+- [cool_profile](https://github.com/adamalston/adamalston)
+- [cool_profile](https://github.com/lucasvazq/lucasvazq)
+- [cool_profile](https://github.com/MarikIshtar007/MarikIshtar007)
+- 
+- [A precious Ressource](https://github.com/rzashakeri/beautify-github-profile)
+
+</details>
+<hr>
+
 
 
