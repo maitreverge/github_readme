@@ -17,9 +17,10 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 
 - [Basics](#basics)
 - [Headings](#headings)
-- [Images](#images)
+- [Image](#image)
 - [Links](#links)
-- [Advanced Syntax](#advanced_syntax)
+- [Tableaux](#tableaux)
+- [Advanced](#advanced)
 
 </details>
 <hr>
@@ -192,7 +193,7 @@ Pour le heading, nous utiliserons le symbole **#**
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## IMAGES :
+## IMAGE :
 
 Pour inserer des images, nous pouvons utiliser deux methodes : une balise `HTML`, ou une balise `Markdown` :
 
@@ -368,7 +369,7 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ADVANCED SYNTAX :
+## ADVANCED :
 
 GitHub supporte egalement la syntaxe les cases cochees :
 
