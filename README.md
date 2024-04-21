@@ -1,5 +1,7 @@
 # GITHUB README GUIDE
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 Ceci est un guide non exhaustif des possibilitees de mise en page sur un README.md sur GitHub.
 
 La syntaxe utilisee est du Markdown :
@@ -14,7 +16,8 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 <br>
 
 - [Basics](#basics)
-- [Heading](#heading)
+- [Headings](#headings)
+- [Images](#images)
 - [Links](#links)
 - [Advanced Syntax](#advanced_syntax)
 
@@ -135,7 +138,7 @@ Liste ordonees :
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## HEADING
+## HEADINGS
 
 Pour le heading, nous utiliserons le symbole **#**
 
@@ -186,6 +189,93 @@ Pour le heading, nous utiliserons le symbole **#**
 **Preview :**
 
 ###### HEADING 6
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+## IMAGES :
+
+Pour inserer des images, nous pouvons utiliser deux methodes : une balise `HTML`, ou une balise `Markdown` :
+
+**Balise HTML :**
+
+```html
+<img src="chemin_vers_votre_image.jpg" alt="Description de l'image">
+```
+
+**Balise Markdown :**
+```markdown
+![Description de l'image](chemin_vers_votre_image.jpg)
+```
+
+Exemples :
+
+```html
+<img src="assets/pain.png" alt="Hold the Pain Harold">
+```
+
+**Preview :**
+
+<img src="assets/pain.png" alt="Hold the Pain Harold">
+
+
+```markdown
+![Hold The Pain Harold](assets/pain.png)
+```
+
+**Preview :**
+
+![Hold The Pain Harold](assets/pain.png)
+
+###### CENTRER LES IMAGES :
+
+> [!IMPORTANT]
+> Bien que le `Markdown` supporte l'insertion d'image, ce dernier ne permet pas d'alligner les images. Pour remerdier a cela, nous utiliseront les balises `HTML`.
+
+**Balise HTML :**
+
+```html
+<p align="center">
+  <img src="assets/middle.gif" alt="Description de l'image">
+</p>
+```
+**Preview :**
+
+<p align="center">
+  <img src="assets/middle.gif" alt="Description de l'image">
+</p>
+
+---
+
+**Balise HTML :**
+
+```html
+<p align="left">
+  <img src="assets/left.gif" alt="Description de l'image">
+</p>
+```
+
+**Preview :**
+
+<p align="left">
+  <img src="assets/left.gif" alt="Description de l'image">
+</p>
+
+---
+
+**Balise HTML :**
+
+```html
+<p align="right">
+  <img src="assets/right.gif" alt="Description de l'image">
+</p>
+```
+
+**Preview :**
+
+<p align="right">
+  <img src="assets/right.gif" alt="Description de l'image">
+</p>
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -280,6 +370,8 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 
 ## ADVANCED SYNTAX :
 
+GitHub supporte egalement la syntaxe les cases cochees :
+
 **Markdown :**
 ```
 - [x] #739
@@ -294,6 +386,8 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 
 
 ---
+
+Github permet egalement d'annoter ses README.md avec 5 balises de couleurs :
 
 
 **Markdown :**
@@ -334,16 +428,18 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 
 ---
 
+Pour la mise en page de blocs de code, nous utiliseront les triples ```` ```language ``` ```` afin que GitHub puisse appliquer des couleurs de syntaxes propres a chaque language.
+
 **Markdown :**
 
 `````
 ```python
-s = "Python syntax highlighting"
+s = "Hello, World ! This is Python."
 print s
 ```
 
 ```javascript
-var message = "Hello, World!";
+var message = "Hello, World ! This is JavaScript.";
 console.log(message);
 ```
 
@@ -351,22 +447,30 @@ console.log(message);
 #include <stdio.h>
 
 int main() {
-    char message[] = "Hello, World!";
+    char message[] = "Hello, World! This is C language.";
     printf("%s\n", message);
     return 0;
 }
+```
+
+```bash
+gcc -Wall -Wextra -Werror && rm -rf */*
+```
+
+```
+Lorsque non precise, le bloc de code sera affiche sans syntax highlighting
 ```
 `````
 
 **Preview :**
 
 ```python
-s = "Python syntax highlighting"
+s = "Hello, World ! This is Python."
 print s
 ```
 
 ```javascript
-var message = "Hello, World!";
+var message = "Hello, World ! This is JavaScript.";
 console.log(message);
 ```
 
@@ -374,10 +478,18 @@ console.log(message);
 #include <stdio.h>
 
 int main() {
-    char message[] = "Hello, World!";
+    char message[] = "Hello, World! This is C language.";
     printf("%s\n", message);
     return 0;
 }
+```
+
+```bash
+gcc -Wall -Wextra -Werror && rm -rf */*
+```
+
+```
+Lorsque non precise, le bloc de code sera affiche sans syntax highlighting
 ```
 
 
