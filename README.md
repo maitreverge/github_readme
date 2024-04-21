@@ -17,10 +17,10 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 
 - [Basics](#basics)
 - [Headings](#headings)
-- [Image](#image)
+- [Images](#images)
 - [Links](#links)
 - [Tableaux](#tableaux)
-- [Advanced](#advanced)
+- [Advanced Syntax](#advanced_syntax)
 
 </details>
 <hr>
@@ -193,7 +193,7 @@ Pour le heading, nous utiliserons le symbole **#**
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## IMAGE :
+## IMAGES
 
 Pour inserer des images, nous pouvons utiliser deux methodes : une balise `HTML`, ou une balise `Markdown` :
 
@@ -227,7 +227,7 @@ Exemples :
 
 ![Hold The Pain Harold](assets/pain.png)
 
-###### CENTRER LES IMAGES :
+#### CENTRER LES IMAGES :
 
 > [!IMPORTANT]
 > Bien que le `Markdown` supporte l'insertion d'image, ce dernier ne permet pas d'alligner les images. Pour remerdier a cela, nous utiliseront les balises `HTML`.
@@ -369,7 +369,7 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ADVANCED :
+## ADVANCED SYNTAX
 
 GitHub supporte egalement la syntaxe les cases cochees :
 
