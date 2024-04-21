@@ -232,49 +232,49 @@ Exemples :
 > [!IMPORTANT]
 > Bien que le `Markdown` supporte l'insertion d'image, ce dernier ne permet pas d'alligner les images. Pour remerdier a cela, nous utiliseront les balises `HTML`.
 
-**Balise HTML :**
+**Center une image :**
 
 ```html
 <p align="center">
-  <img src="assets/middle.gif" alt="Description de l'image">
+  <img src="assets/middle.gif" alt="center_cockie_monster">
 </p>
 ```
 **Preview :**
 
 <p align="center">
-  <img src="assets/middle.gif" alt="Description de l'image">
+  <img src="assets/middle.gif" alt="center_cockie_monster">
 </p>
 
 ---
 
-**Balise HTML :**
+**Aligner a gauche :**
 
 ```html
 <p align="left">
-  <img src="assets/left.gif" alt="Description de l'image">
+  <img src="assets/left.gif" alt="left_cockie_monster">
 </p>
 ```
 
 **Preview :**
 
 <p align="left">
-  <img src="assets/left.gif" alt="Description de l'image">
+  <img src="assets/left.gif" alt="left_cockie_monster">
 </p>
 
 ---
 
-**Balise HTML :**
+**Aligner a droite :**
 
 ```html
 <p align="right">
-  <img src="assets/right.gif" alt="Description de l'image">
+  <img src="assets/right.gif" alt="right_cockie_monster">
 </p>
 ```
 
 **Preview :**
 
 <p align="right">
-  <img src="assets/right.gif" alt="Description de l'image">
+  <img src="assets/right.gif" alt="right_cockie_monster">
 </p>
 
 
