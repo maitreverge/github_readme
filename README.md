@@ -488,5 +488,18 @@ Lorsque non precise, le bloc de code sera affiche sans syntax highlighting
 
 ## EXTRAS
 
+<a id="summary"></a>
+<hr>
+<details><summary>Ressources on Markdown </summary>
+<br>
+
+- [Markdown Guide](https://www.markdownguide.org/getting-started/)
+- [Markdown by GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+- [Really Cool VS Code Markdown Extension](https://shd101wyy.github.io/markdown-preview-enhanced/#/)
+- [La ressource ultime pour toute la syntaxe Markdown](https://www.google.com/)
+
+</details>
+<hr>
+
 
 
