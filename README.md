@@ -21,17 +21,10 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 - [Links](#links)
 - [Tableaux](#tableaux)
 - [Advanced Syntax](#advanced_syntax)
+- [Extras](#extras)
 
 </details>
 <hr>
-
-**Markdown :**
-``` text
-Texte
-```
-**Preview :**
-
-Texte
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -492,5 +485,8 @@ gcc -Wall -Wextra -Werror && rm -rf */*
 ```
 Lorsque non precise, le bloc de code sera affiche sans syntax highlighting
 ```
+
+## EXTRAS
+
 
 
