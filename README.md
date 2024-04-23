@@ -50,15 +50,15 @@ On peut egalement mettre du texte en **gras**, *italique*, **gras _plus italique
 
 
 | Style | Syntax | Raccourci clavier | Example | Output
-|----------|----------|----------|----------|----------|
-| Texte en gras    | `** **` ou `__ __`   | `Command`+`B`(Mac) or <br>`Ctrl`+`B`(Windows/Linux) | `**Texte en gras**` or <br> `__Texte En gras__` | __Texte en gras__
-| Texte en italique            | `* *` ou `_ _`        | `Command`+`I`(Mac) or <br>`Ctrl`+`I`(Windows/Linux)  | `*Texte en italique*` or <br> `_Texte en italique_`   | *Texte en italique*                  |
-| Texte barré                  | `~~ ~~`               | Aucun                             | `~~Texte barré~~`                  | ~~Texte barré~~                      |
-| Gras et italique imbriqués   | `** **` et `_ _` | Aucun                           | `**Texte _urgent_ et important**`| **Texte _urgent_ et important**    |
-| Tout en gras et en italique  | `*** ***`             | Aucun                             | `***Tout en gras et en italique***`| ***Tout en gras et en italique***  |
-| Code                         | \` \`  | Aucun | ``` `Ceci est un bout de code` ```| `Ceci est un bout de code` |
-| Subscript | `<sub> </sub>` | Aucun | `Ceci est un <sub> subscript </sub> texte` | Ceci est un <sub> subscript </sub> texte |
-| Superscript | `<sup> </sup>` | Aucun | `Ceci est un <sup> superscript </sup> texte` | Ceci est un <sup> superscript </sup> texte |
+| :---: |:---:|:---:|:---:|:---:|
+| Texte en gras    | `** **` ou <br> `__ __` <br> (double underscore)   | `Command`+`B` (Mac) or <br>`Ctrl`+`B` (Windows/Linux) | `**Texte en gras**` ou <br> `__Texte En gras__` | __Texte en gras__
+| Texte en italique            | `* *` ou <br> `_ _` <br> (single underscore)    | `Command`+`I` (Mac) or <br>`Ctrl`+`I` (Windows/Linux)  | `*Texte en italique*` ou <br> `_Texte en italique_`   | *Texte en italique*                  |
+| Texte barré                  | `~~ ~~`               | /                             | `~~Texte barré~~`                  | ~~Texte barré~~                      |
+| Gras et italique imbriqués   | `** **` et <br> `_ _` | /                           | `**Texte _urgent_ et important**`| **Texte _urgent_ et important**    |
+| Tout en gras et en italique  | `*** ***`             | /                             | `***Tout en gras et en italique***`| ***Tout en gras et en italique***  |
+| Code                         | \` \`  | / | ``` `Ceci est un bout de code` ```| `Ceci est un bout de code` |
+| Subscript | `<sub> </sub>` | / | `Ceci est un <sub> subscript </sub> texte` | Ceci est un <sub> subscript </sub> texte |
+| Superscript | `<sup> </sup>` | / | `Ceci est un <sup> superscript </sup> texte` | Ceci est un <sup> superscript </sup> texte |
 
 ---
 
