@@ -20,7 +20,7 @@ Il permet de créer des documents avec une mise en forme basique, comme des titr
 - [Images](#images)
 - [Links](#links)
 - [Tableaux](#tableaux)
-- [Advanced Syntax](#advanced_syntax)
+- [Advanced_Syntax](#advanced_syntax)
 - [Extras](#extras)
 
 </details>
@@ -362,7 +362,7 @@ Pour creer des tableaux simples, nous allons utiliser deux caracteres principaux
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## ADVANCED SYNTAX
+## ADVANCED_SYNTAX
 
 GitHub supporte egalement la syntaxe les cases cochees :
 
