@@ -1,8 +1,17 @@
-# GITHUB README GUIDE
+<p align="center">
+  <img src="img/github.png" width="70%"/>
+</p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## 🚀 SYNOPSIS
 
-Ceci est un guide non exhaustif des possibilitees de mise en page sur un README.md sur GitHub.
+Ceci est un guide non exhaustif des possibilités de mise en page sur un README.md sur GitHub.
+
+> [!NOTE]
+> Ce guide a été écrit dans un premier temps pour servir de support pédagogique lors d'un atelier à 42.
+> 
+> J'ai ensuite fait les modifications nécessaires pour que ce guide serve à tous.
+
+## ⚙️ USAGE
 
 La syntaxe utilisee est du Markdown :
 
